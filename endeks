@@ -1,0 +1,16 @@
+print("""
+*************************************
+***                               ***
+***  BOY-KİLO ENDEKSİ HESAPLAMA   ***
+***                               *** 
+*************************************     
+""")
+kilo=int(input("lutfen kilonuzu kilogram cinsinden giriniz:"))
+boy=float(input("lutfen boyunuzu metre cinsinden giriniz:"))
+endeks=kilo/boy**2
+if(endeks>=25):
+    print("fazla kilolu")
+if(18.5>=endeks>25):
+    print("normal")
+if(endeks<18.5):
+    print("zayif")
