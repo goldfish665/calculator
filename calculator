@@ -1,0 +1,22 @@
+print("""
+******************************************
+***                                    ***
+***            CALCULATOR              ***
+***                                    ***
+******************************************
+1) Addition
+2) Subtraction
+3) Multiplication
+4) Distribution
+""")
+process=int(input("Please select the process number:"))
+firstNumber=int(input("Please type the first number:"))
+secondNumber=int(input("Please type the second number:"))
+if(process==1):
+    print(firstNumber+secondNumber)
+if(process==2):
+    print(firstNumber-secondNumber)
+if(process==3):
+    print(firstNumber*secondNumber)
+if(process==4):
+    print(firstNumber/secondNumber)
